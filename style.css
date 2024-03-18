@@ -1,0 +1,196 @@
+body {
+    margin: 200px;
+}
+
+h1{
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    color: #fd7b81;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    border-bottom: #fd7b81 solid 2px;
+    margin-top: 0px;
+}
+
+p{
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 300;
+}
+
+.subhead{
+    text-align: center;
+    font-size: 16px;
+}
+
+.button_container{
+    text-align: center;
+}
+
+#Fiction{
+    background-color: #5a75ba;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 0px; 
+    border-radius: 10px;
+}
+
+#Non-Fiction{
+    background-color: #319177;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 0px; 
+    border-radius: 10px;
+}
+
+#All{
+    background-color: #fd7b81;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 0px; 
+    border-radius: 10px;
+}
+
+#Series{
+    background-color: #ffa23c;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 0px; 
+    border-radius: 10px;
+}
+
+#Standalone{
+    background-color: #bfe457;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 0px; 
+    border-radius: 10px;
+}
+
+.ranked-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 50px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  
+}
+
+.ranked-item{
+    max-width: 950px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ranked-item .rank{
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding:0;
+    align-self: baseline;
+}
+
+.ranked-item .title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    margin-right:10px;
+    margin-left: 0;
+    border: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ranked-item .author{
+    font-size: 24px;
+    padding-left: 2px;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+.ranked-item .genre{
+    background-color: #5a75ba;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 0px; 
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+
+.ranked-item .standaloneSequel{
+    background-color: #ffa23c;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 0px; 
+    border-radius: 10px;
+}
+
+.ranked-item .header{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+.ranked-item .subflex{
+    display: flex;
+}
+
+.ranked-item .rating{
+    display: flex;
+    align-items: baseline;
+    margin-left: auto;
+    padding: 0px;
+}
+
+/*.ranked-item .bookcover{
+    order: 2;
+    margin-left: auto;
+}*/
+
+.bordered {
+    border: 4px solid black;
+}
+
+.no-display {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    body{
+        max-width: fit-content;
+    }
+}
